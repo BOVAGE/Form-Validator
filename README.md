@@ -1,3 +1,3 @@
 # Form-Validator
 
-A registration form webpage that uses javascript for form validation. I used regular expression 
+A registration form webpage that uses javascript (regular expression) for form validation.
