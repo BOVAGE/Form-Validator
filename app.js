@@ -1,6 +1,6 @@
 // regex patterns
 let usernameRegex = /\w{3,}/;
-let emailRegex = /\w+@\w+\.\w{2,}/;
+let emailRegex = /\w+@\w+\.\w{2,}$/;
 let passwordRegex = /.{6,}/;
 
 // selects each input field
