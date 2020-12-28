@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<title>Form Validator</title>
+	</head>
+	
+	<body>
+		<form method="post">
+			<h1>Register with Us</h1>
+			<label for="username">Username</label>
+			<input id="username" type="text" name="username" placeholder="Enter username" required>
+			<p class="username error"></p>
+			<label for="email">Email</label>
+			<input id="email" type="email" name="email" placeholder="Enter email" required>
+			<p class="email error"></p>
+			<label for="password1">Password</label>
+			<input id="password1" type="password" name="password1" placeholder="Enter password" required>
+			<p class="password1 error"></p>
+			<label for="password2">Confirm password</label>
+			<input id="password2" type="password" name="password2" placeholder="Enter password again" required>
+			<p class="password2 error"></p>
+			<input type="submit" value="Submit"> 
+		</form>
+		
+		<script src="app.js" charset = "utf-8">
+		</script>
+	</body>
+</html>
