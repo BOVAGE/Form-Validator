@@ -6,10 +6,13 @@
 
 body {
 	font-size: 16px;
+	min-height: 100vh;
 	font-family: 'Raleway', sans-serif;
 	line-height: 1.5;
 	display: flex;
+	flex-direction: row;
 	justify-content: center;
+	align-items: center;
 }
 
 form {
@@ -27,6 +30,8 @@ h1 {
 
 p.error {
 	color: red;
+	font-size: 0.8rem;
+	margin: 10px 0;
 }
 
 label {
@@ -53,6 +58,7 @@ input[type="submit"] {
 	cursor: pointer;
 	margin: 12px 0;
 	border: 3px solid #bfbfbf;
+	outline: 0;
 	transition: background-color 0.34s ease-in-out,
 				border-color 0.34s ease-in-out;
 }
@@ -68,4 +74,14 @@ input[type="submit"]:hover {
 
 .red {
 	border-color: red;
+}
+
+@media screen and (max-width: 400px) {
+	form {
+		width: 90%;
+	}
+	
+	input {
+		width: 100%;
+	}
 }
